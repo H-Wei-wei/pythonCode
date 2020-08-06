@@ -13,7 +13,7 @@ browser.find_element_by_id("su").click()
 # 固定等待
 # time.sleep(10)
 
-# 智能等待
+# 智能等待---页面加载成功后就不需要等待了
 browser.implicitly_wait(10)
 
 browser.find_element_by_link_text("刘些宁_百度百科").click()

@@ -1,0 +1,45 @@
+1596196703352	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileNmGk17"
+1596196793252	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile6uE989"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:368:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:410:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:448:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:360:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:294:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:344:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 636))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1596196816275	Marionette	INFO	Listening on port 14127
+1596196816391	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596196833945	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileQgt78P"
+1596196913109	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileDCp0EW"
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x530004,name=PGPU::Msg_InitCompositorManager) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x530006,name=PGPU::Msg_InitImageBridge) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x530008,name=PGPU::Msg_InitVRManager) Channel error: cannot send/recv
+
+[14580, Gecko_IOThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ip
+###!!! [Child][MessageChannel] Error: (msgtype=0x370001,name=PCompositorManager::Msg_PCompositorBridgeConstructor) Channel error: cannot send/recv
+
+c/chromium/src/chrome/common/ipc_channel_win.cc, line 524
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x36000D,name=PCompositorBridge::Msg_PCompositorWidgetConstructor) Channel error: cannot send/recv
+
+[14580, ImageBridgeChld] WARNING: failed to create pipe: 2: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 229
+[GFX1-]: Failed to create remote compositor
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x53001B,name=PGPU::Msg_ShutdownVR) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+Exiting due to channel error.
+1596196938596	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileig9ivG"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1596196953607	Marionette	INFO	Listening on port 14250
+1596196953700	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596196976949	Marionette	INFO	Stopped listening on port 14250
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
