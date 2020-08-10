@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
-import unittest, time, re
+import unittest, time, re,os
 
 class TestBaiDu1(unittest.TestCase):
     # test fixture，初始化环境
@@ -36,6 +36,7 @@ class TestBaiDu1(unittest.TestCase):
         # driver.find_element_by_id("su").click()
         # print("------test_baiDuSearch--------")
 
+    @unittest.skip("skipping")
     def test_baiDuSearch1(self):
         driver = self.driver
         driver.get(self.base_url + "/")
@@ -53,8 +54,7 @@ class TestBaiDu1(unittest.TestCase):
         driver = self.driver
         driver.get(self.base_url + "/")
         driver.find_element_by_link_text("hao123").click()
-        self.assertEqual(u"hao123_上网从这里开始", driver.title)
-        # print("------test_hao--------")
+        time.sleep(2)
 
     # 判断element是否存在，可删除
     def is_element_present(self, how, what):
@@ -85,6 +85,7 @@ class TestBaiDu1(unittest.TestCase):
         finally:
             self.accept_next_alert = True
 
-    if __name__ == "__main__":
-        # 执行用例
-        unittest.main()
+
+if __name__ == "__main__":
+    # 执行用例
+    unittest.main()

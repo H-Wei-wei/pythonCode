@@ -1,28 +1,27 @@
 
-from selenium import webdriver
-import unittest
-import os, sys, time
+# 获取 HTML 报告
+
+# -*- coding: utf-8 -*-
+import unittest,csv
+import os,sys
+import time
 import HTMLTestRunner
 
-def createSuite():
-    discovers = unittest.defaultTestLoader.discover("../src0807", pattern="BaiDu*.py", top_level_dir=None)
-    print(discovers)
-    return discovers
+# 手工添加案例到套件，
+def createsuite():
+    discover=unittest.defaultTestLoader.discover('../src0807',pattern='BaiDu*.py',top_level_dir=None)
+    print(discover)
+    return discover
 
-if __name__ == "__main__":
-    # sys.path 是 python 的搜索模块的路径，返回结果是list
-    curpath = sys.path[0]
-    print(sys.path)
-    print(sys.path[0])
-    if not os.path.exists(curpath + "/resultreport"):
-        os.makedirs(curpath + "/resultreport")
-    now = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-    print(time.time())
-    print(time.localtime())
-    print(now)
-    filename = curpath + "/resultreport/" + now + "resultreport.html"
-    with open(filename, 'wb') as fp:
-        runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title="测试报告", description="用例执行结果",
-                                               verbosity=2)
-        discovers = createSuite()
-        runner.run(discovers)
+if __name__=="__main__":
+    curpath=sys.path[0]
+    # 取当前时间
+    now=time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
+    if not os.path.exists(curpath+'/resultreport'):
+        os.makedirs(curpath+'/resultreport')
+    filename = curpath + '/resultreport/'+ now+'resultreport.html'
+    with open(filename,'wb') as fp:
+        # 出html报告
+        runner=HTMLTestRunner.HTMLTestRunner(stream=fp,title=u'测试报告',description=u'用例执行情况',verbosity=2)
+        suite=createsuite()
+        runner.run(suite)
