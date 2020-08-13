@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c52a6bb9-0da4-4fff-b92c-757a14c1d34b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src0807/Test_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src0807/test_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testMyProjects/testBlogDemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testMyProjects/testBlogDemo2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src0807/BaiDu1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src0807/BaiDu1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src0807/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/src0807/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src0807/test_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src0807/test_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +38,8 @@
       <recent name="F:\pythoncode\20_07_24_test\src0807" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in Test_3.py">
-    <configuration name="test4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests for testBlogDemo2.TestBlogDemo.test_deleteArticle">
+    <configuration name="testBlogDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20_07_24_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -50,11 +47,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Temp/HZ$D.046.1585/HZ$D.046.1587/src0409" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testMyProjects" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Temp/HZ$D.046.1585/HZ$D.046.1587/src0409/test4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testMyProjects/testBlogDemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -63,69 +60,69 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Test_3.Baidu1.test_baidu1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for testBlogDemo2.TestBlogDemo.test_addArticle" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="20_07_24_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src0807" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testMyProjects" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Test_3.Baidu1.test_baidu1&quot;" />
+      <option name="_new_target" value="&quot;testBlogDemo2.TestBlogDemo.test_addArticle&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Test_3.Testddt.test_baidu1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for testBlogDemo2.TestBlogDemo.test_deleteArticle" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="20_07_24_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src0807" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testMyProjects" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Test_3.Testddt.test_baidu1&quot;" />
+      <option name="_new_target" value="&quot;testBlogDemo2.TestBlogDemo.test_deleteArticle&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Test_3.Testddt.test_hao" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for testBlogDemo2.TestBlogDemo.test_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="20_07_24_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src0807" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testMyProjects" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Test_3.Testddt.test_hao&quot;" />
+      <option name="_new_target" value="&quot;testBlogDemo2.TestBlogDemo.test_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in Test_3.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for testBlogDemo2.TestBlogDemo.test_register" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="20_07_24_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src0807" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testMyProjects" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src0807/Test_3.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;testBlogDemo2.TestBlogDemo.test_register&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in Test_3.py" />
-        <item itemvalue="Python.test4" />
-        <item itemvalue="Python tests.Unittests for Test_3.Baidu1.test_baidu1" />
-        <item itemvalue="Python tests.Unittests for Test_3.Testddt.test_baidu1" />
-        <item itemvalue="Python tests.Unittests for Test_3.Testddt.test_hao" />
+        <item itemvalue="Python tests.Unittests for testBlogDemo2.TestBlogDemo.test_deleteArticle" />
+        <item itemvalue="Python tests.Unittests for testBlogDemo2.TestBlogDemo.test_addArticle" />
+        <item itemvalue="Python tests.Unittests for testBlogDemo2.TestBlogDemo.test_login" />
+        <item itemvalue="Python tests.Unittests for testBlogDemo2.TestBlogDemo.test_register" />
+        <item itemvalue="Python.testBlogDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -159,34 +156,42 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="546" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1596196028873" />
+    <state x="451" y="0" key="CommitChangelistDialog2" timestamp="1597331534785">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="451" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1597331534785" />
     <state x="559" y="141" key="FileChooserDialogImpl" timestamp="1595603460995">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="559" y="141" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1595603460995" />
-    <state width="994" height="226" key="GridCell.Tab.0.bottom" timestamp="1597053348063">
+    <state width="1081" height="183" key="GridCell.Tab.0.bottom" timestamp="1597331334758">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="994" height="226" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1597053348063" />
-    <state width="994" height="226" key="GridCell.Tab.0.center" timestamp="1597053348063">
+    <state width="1081" height="183" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1597331334758" />
+    <state width="1081" height="183" key="GridCell.Tab.0.center" timestamp="1597331334758">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="994" height="226" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1597053348063" />
-    <state width="994" height="226" key="GridCell.Tab.0.left" timestamp="1597053348063">
+    <state width="1081" height="183" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1597331334758" />
+    <state width="1081" height="183" key="GridCell.Tab.0.left" timestamp="1597331334757">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="994" height="226" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1597053348063" />
-    <state width="994" height="226" key="GridCell.Tab.0.right" timestamp="1597053348063">
+    <state width="1081" height="183" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1597331334757" />
+    <state width="1081" height="183" key="GridCell.Tab.0.right" timestamp="1597331334758">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="994" height="226" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1597053348063" />
+    <state width="1081" height="183" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1597331334758" />
     <state x="169" y="51" key="SettingsEditor" timestamp="1596782510325">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="169" y="51" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1596782510325" />
-    <state x="368" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1597021522398">
+    <state x="368" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1597331500340">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="368" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1597021522398" />
+    <state x="368" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1597331500340" />
+    <state x="605" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597331515321">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="605" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1597331515321" />
     <state x="368" y="157" width="862" height="523" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1596782508701">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
