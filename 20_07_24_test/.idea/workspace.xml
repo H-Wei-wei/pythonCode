@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c52a6bb9-0da4-4fff-b92c-757a14c1d34b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testMyProjects/testBlogDemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testMyProjects/testBlogDemo2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +36,8 @@
       <recent name="F:\pythoncode\20_07_24_test\src0807" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for testBlogDemo2.TestBlogDemo.test_deleteArticle">
-    <configuration name="testBlogDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.testMusic">
+    <configuration name="testMusic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20_07_24_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -51,7 +49,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testMyProjects/testBlogDemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testMyProjects/testMusic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.testMusic" />
         <item itemvalue="Python tests.Unittests for testBlogDemo2.TestBlogDemo.test_deleteArticle" />
         <item itemvalue="Python tests.Unittests for testBlogDemo2.TestBlogDemo.test_addArticle" />
         <item itemvalue="Python tests.Unittests for testBlogDemo2.TestBlogDemo.test_login" />
         <item itemvalue="Python tests.Unittests for testBlogDemo2.TestBlogDemo.test_register" />
-        <item itemvalue="Python.testBlogDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -164,30 +162,30 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="559" y="141" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1595603460995" />
-    <state width="1081" height="183" key="GridCell.Tab.0.bottom" timestamp="1597331334758">
+    <state width="1165" height="185" key="GridCell.Tab.0.bottom" timestamp="1598279490274">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1081" height="183" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1597331334758" />
-    <state width="1081" height="183" key="GridCell.Tab.0.center" timestamp="1597331334758">
+    <state width="1165" height="185" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1598279490274" />
+    <state width="1165" height="185" key="GridCell.Tab.0.center" timestamp="1598279490273">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1081" height="183" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1597331334758" />
-    <state width="1081" height="183" key="GridCell.Tab.0.left" timestamp="1597331334757">
+    <state width="1165" height="185" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1598279490273" />
+    <state width="1165" height="185" key="GridCell.Tab.0.left" timestamp="1598279490273">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1081" height="183" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1597331334757" />
-    <state width="1081" height="183" key="GridCell.Tab.0.right" timestamp="1597331334758">
+    <state width="1165" height="185" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1598279490273" />
+    <state width="1165" height="185" key="GridCell.Tab.0.right" timestamp="1598279490274">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1081" height="183" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1597331334758" />
+    <state width="1165" height="185" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1598279490274" />
     <state x="169" y="51" key="SettingsEditor" timestamp="1596782510325">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="169" y="51" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1596782510325" />
-    <state x="368" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1597331500340">
+    <state x="368" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1598259825515">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="368" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1597331500340" />
+    <state x="368" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1598259825515" />
     <state x="605" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597331515321">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
