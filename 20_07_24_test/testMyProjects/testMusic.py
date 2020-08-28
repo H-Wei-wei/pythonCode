@@ -19,7 +19,17 @@ class TestMusic(unittest.TestCase):
         time.sleep(6)
         self.driver.find_element_by_id("submit").click()
         time.sleep(6)
-        self.deleteMusic()
+        # self.deleteMusic()
+        # time.sleep(6)
+        # self.addMusicToLove()
+        # time.sleep(6)
+        # self.loveMusic()
+        # time.sleep(6)
+        # self.removeLove()
+        # time.sleep(6)
+        # self.returnOne()
+        # self.selIfMusic()
+        self.deleteSelMusic()
 
     @unittest.skip("skipping")
     def test_register(self):
@@ -41,6 +51,42 @@ class TestMusic(unittest.TestCase):
         alert = self.driver.switch_to.alert
         alert.accept()
 
+    def addMusic(self):
+        self.driver.find_element_by_link_text(U"添加歌曲").click()
+
+    def addMusicToLove(self):
+        self.driver.find_element_by_xpath("//*[@id=\"info\"]/tr[1]/td[4]/button[2]").click()
+        time.sleep(3)
+        alert = self.driver.switch_to.alert
+        alert.accept()
+
+    def loveMusic(self):
+        self.driver.find_element_by_link_text(U"喜欢列表").click()
+
+    def removeLove(self):
+        self.driver.find_element_by_xpath("//*[@id=\"info\"]/tr/td[4]/button").click()
+        time.sleep(3)
+        alert = self.driver.switch_to.alert
+        alert.accept()
+
+    def returnOne(self):
+        self.driver.find_element_by_link_text("回到首页").click()
+
+    def selIfMusic(self):
+        self.driver.find_element_by_id("exampleInputName2").send_keys("活")
+        self.driver.find_element_by_id("submit1").click()
+        time.sleep(3)
+        self.driver.find_element_by_id("exampleInputName2").clear()
+        self.driver.find_element_by_id("submit1").click()
+
+    def deleteSelMusic(self):
+        self.driver.find_element_by_id("28").click()
+        self.driver.find_element_by_id("29").click()
+        time.sleep(3)
+        self.driver.find_element_by_link_text(U"删除选中").click()
+        time.sleep(3)
+        alert = self.driver.switch_to.alert
+        alert.accept()
 
 if __name__=="__main__":
     unittest.main()
